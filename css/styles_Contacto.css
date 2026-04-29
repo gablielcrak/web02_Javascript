@@ -1,0 +1,126 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.seccion-contacto {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    padding: 20px;
+}
+
+/* Estilo del Formulario (Igual a tu imagen) */
+.formulario-card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 320px;
+}
+
+.formulario-card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #444;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.grupo {
+    margin-bottom: 15px;
+}
+
+.grupo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.grupo input, .grupo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Muy importante */
+}
+
+.grupo input:focus, .grupo textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.2);
+}
+
+.grupo textarea {
+    height: 100px;
+    resize: none;
+}
+
+.btn-enviar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo de los Vínculos (WhatsApp y Correo) */
+.vinculos-contacto {
+    flex: 1;
+    min-width: 300px;
+}
+
+.link-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.link-card:hover {
+    transform: translateX(10px);
+}
+
+.whatsapp:hover { border-left: 5px solid #25d366; }
+.email:hover { border-left: 5px solid #007bff; }
+
+.icono {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+
+.texto span {
+    font-weight: bold;
+    display: block;
+    color: #777;
+    font-size: 0.8rem;
+}
+
+.texto p {
+    margin: 0;
+    font-size: 1rem;
+}
