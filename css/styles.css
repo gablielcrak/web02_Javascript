@@ -162,3 +162,19 @@ textarea.input-text { height: 15rem; }
 #btnTop:hover {
     background-color: #171c49; /* Color más oscuro al pasar el mouse */
 }
+
+/* Estilo básico para el botón hamburguesa */
+.menu-hamburguesa {
+    display: none; /* Se oculta en PC */
+    font-size: 3rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu-hamburguesa { display: block; }
+    .enlaces-nav { display: none; flex-direction: column; width: 100%; }
+    .enlaces-nav.mostrar { display: flex; } /* Clase que activa el JS */
+}
