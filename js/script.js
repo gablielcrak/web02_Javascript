@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "Diseñador Freelancer", 
             "Desarrollador Web", 
             "Especialista en Frontend",
-            "Estudiante de Ingeniería"
+            "Estudiante de Tec.Pasco"
         ];
         let indexFrase = 0;
         let indexLetra = 0;
